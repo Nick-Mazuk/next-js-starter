@@ -1,4 +1,4 @@
-name: Node Continuous Integration
+name: Lint and test
 
 on:
   pull_request:
