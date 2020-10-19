@@ -16,6 +16,13 @@ After installation, update dependencies
 npm run update-modules
 ```
 
+And install `node_modules`
+
+```bash
+npm install
+
+```
+
 ## Starting the website
 
 For development:
