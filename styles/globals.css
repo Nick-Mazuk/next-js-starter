@@ -1,0 +1,19 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* layout */
+
+@responsive {
+    .wrapper {
+        @apply w-full max-w-screen-xl px-6 mx-auto;
+    }
+}
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
