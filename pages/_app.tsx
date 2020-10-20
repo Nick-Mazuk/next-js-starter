@@ -32,7 +32,14 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
         trackPageChanges()
     }, [])
 
-    return <Component {...pageProps} />
+    return (
+        <>
+            {/* header items go here */}
+            <Component {...pageProps} />
+            {/* eslint-disable-next-line no-inline-comments -- it's a prettier/eslint conflict */}
+            <div className='mt-auto'>{/* footer items go here */}</div>
+        </>
+    )
 }
 
 export default MyApp

@@ -17,11 +17,9 @@ export default class MyDocument extends Document {
                     <link rel='dns-prefetch' href='https://www.google-analytics.com' />
                     <link rel='dns-prefetch' href='https://www.gstatic.com' />
                 </Head>
-                <body className='w-screen overflow-x-hidden flex flex-col justify-between min-h-screen antialiased text-gray-900 bg-white dark:text-gray-d900 dark:bg-black'>
-                    {/* header items go here */}
+                <body className='flex flex-col justify-between w-screen min-h-screen overflow-x-hidden antialiased text-gray-900 bg-white dark:text-gray-d900 dark:bg-black'>
                     <Main />
-                    {/* eslint-disable-next-line no-inline-comments -- it's a prettier/eslint conflict */}
-                    <div className='mt-auto'>{/* footer items go here */}</div>
+
                     <NextScript />
                 </body>
             </Html>
