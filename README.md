@@ -42,3 +42,5 @@ npm run build
 By default, the `main` branch should house all pre-release code. Then, when you're ready to deploy to production, merge into the `production` branch.
 
 This will also run several CI tests with GitHub actions.
+
+To set this up, just create a `production` branch.
