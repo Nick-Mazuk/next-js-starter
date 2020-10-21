@@ -34,10 +34,11 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
 
     return (
         <>
-            {/* header items go here */}
-            <Component {...pageProps} />
-            {/* eslint-disable-next-line no-inline-comments -- it's a prettier/eslint conflict */}
-            <div className='mt-auto'>{/* footer items go here */}</div>
+            <div className='flex flex-col w-screen min-h-screen overflow-x-hidden antialiased text-gray-900 bg-white dark:text-gray-d900 dark:bg-black'>
+                {/* header items go here */}
+                <Component {...pageProps} />
+            </div>
+            {/* footer items go here, built-in components will automatically stick to the bottom */}
         </>
     )
 }
