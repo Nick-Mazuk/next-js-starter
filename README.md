@@ -8,7 +8,7 @@ A very opinionated starter for Next JS. It's configured to suit personal needs e
 
 This is a template repository, so follow the [GitHub documentation for using template repositories](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 
-> Make sure to select "include all branches".
+> Do not select "include all branches".
 
 After installation, update dependencies
 
