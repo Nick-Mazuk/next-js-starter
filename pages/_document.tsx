@@ -17,7 +17,7 @@ export default class MyDocument extends Document {
                     <link rel='dns-prefetch' href='https://www.google-analytics.com' />
                     <link rel='dns-prefetch' href='https://www.gstatic.com' />
                 </Head>
-                <body>
+                <body className='w-screen overflow-x-hidden'>
                     <Main />
                     <NextScript />
                 </body>
